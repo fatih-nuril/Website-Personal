@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-callout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--
+    Images are from https://unsplash.com/
+    -->
+
+
+</head>
+<body>
+    <nav id="scrolling_navbar" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">My Portofolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav fw-bold">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Tentang Saya</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#travel">Pengalaman</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Pendidikan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div data-bs-spy="scroll" data-bs-target="#scrolling_navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+
+        <section class="min-vh-100 d-flex flex-wrap align-content-center" id="home" style="background-image: url('image/home.jpg'); background-size: cover;">
+          <div class="container d-flex align-items-center py-5">
+              <div class="col text-center bg-light m-4 p-4 text-dark bg-opacity-50 rounded-5 border border-2 border-white">
+                <img src="image/Fatih.jpeg" class="img-fluid col-lg-2 col-sm-6 col-xs-6 mb-4"> 
+                <p class="display-2 text-secondary mb-3">Muhammad Fatih Nuril Hadi</p>
+                <p class="text-secondary fs-5 mb-6">Electrical Engineer dan Developer Web / Mobile Pemula</p>
+                <a class="btn btn-success btn-lg active rounded-pill mb-3" href="#about">Tentang Saya</a>
+                <a class="btn btn-light btn-lg rounded-pill mb-3" href="#contact">Contact</a>
+            </div>
+          </div>
+        </section>
+
+        <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="container py-5" id="about">
+            <div class="text-center py-5">
+                <h2 class="fw-bolder">Tentang Saya</h2>
+                <p class="fs-5">Saya adalah mahasiswa Teknik Informatika di Universitas Esa Unggul dengan minat besar pada pengembangan teknologi dan inovasi digital. Selain menempuh pendidikan, saya juga aktif bekerja sebagai seorang electrical engineer di bidang alat berat. Kombinasi dari studi saya di bidang informatika dan pengalaman praktis di industri alat berat telah membentuk saya menjadi pribadi yang memiliki kemampuan analisis, pemecahan masalah, dan adaptasi yang baik terhadap tantangan teknis.
+
+                  Dengan latar belakang ini, saya terus berupaya mengembangkan keahlian, baik dalam pemrograman maupun pengelolaan sistem teknis, untuk berkontribusi lebih luas dalam dunia teknologi.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" >
+                    <img class="img-fluid rounded-5" src="image/pelabuhan.png">
+                </div>
+                <div class="col-lg-7 offset-lg-1">
+                    <p class="lh-lg mb-6">Saya memiliki kombinasi unik dari keahlian di bidang teknik Mekatronika dan teknik informatika, termasuk pengembangan web dan analisis sistem. Berikut adalah keahlian yang mendukung saya dalam berkarier dan belajar:</p>
+                    <h3 class="fw-bold fs-4">Skills</h3>
+                    
+                    <p class="mb-0" >Electrical Enggineering:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-greenyellow" style="width: 80%;">80%</div>
+                    </div>
+                    <p class="mb-0" >Mechanical Enggineering:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 60%;">60%</div>
+                    </div>
+                    <p class="mb-0" >Pengembangan Web dan Mobile:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-warning" style="width: 40%;">40%</div>
+                    </div>
+                    <p class="mb-0" >Visual Studio Code dan Git:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-danger" style="width: 70%;">70%</div>
+                    </div>
+                    <p class="mb-0" >Komunikasi yang efektif dalam tim dan individu:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-green" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="bg-dark py-5" id="travel">
+            <div class="container">
+                <div class="text-white text-center py-5">
+                    <h2 class="fw-bolder">Pengalaman</h2>
+                    <p class="fs-5">Sebagai seorang profesional dengan latar belakang teknik Mekatronika dan Informatika, saya memiliki pengalaman bekerja, pelatihan sertifikasi maupun pengembangan perangkat lunak untuk meningkatkan efisiensi operasional.</p>
+                </div>
+
+                <div class="row pb-4" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/fatih1.jpeg" data-target="#carouselExample" data-slide-to="0">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/fatih2.jpeg" data-target="#carouselExample" data-slide-to="1">
+                    </div>
+                    <div class="col-11 col-sm-5 col-lg-2 mb-2">
+                      <img class="w-100 img-thumbnail" src="image/fatih3.jpeg" data-target="#carouselExample" data-slide-to="2">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/fatih4.jpeg" data-target="#carouselExample" data-slide-to="3">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                        <img class="w-100 img-thumbnail" src="image/fatih5.jpeg" data-target="#carouselExample" data-slide-to="4">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                        <img class="w-100 img-thumbnail" src="image/fatih6.jpeg" data-target="#carouselExample" data-slide-to="5">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                        <img class="w-100 img-thumbnail" src="image/project1.png" data-target="#carouselExample" data-slide-to="6">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                        <img class="w-100 img-thumbnail" src="image/project3.png" data-target="#carouselExample" data-slide-to="7">
+                    </div>
+                  </div>
+                  
+                  <!-- Modal -->
+                  <!-- 
+                  This part is straight out of Bootstrap docs. Just a carousel inside a modal.
+                  -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                              </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/operator.jpeg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/elektrik1.jpeg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/ngoding.jpeg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/drive1.jpeg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/hmc2.jpeg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/las1.jpeg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/bareng.jpeg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/pelabuhan.png">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExample" type="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample" type="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+            
+        </section>
+
+        <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="py-5" id="blog">
+            <div class="container">
+                <div class="text-center py-5">
+                    <h2 class="fw-bolder">Pendidikan</h2>
+                    <p class="fs-5">Saya memulai perjalanan pendidikan saya dengan memilih jurusan Teknik Mekatronika di SMK, yang memberikan saya dasar yang kuat dalam bidang teknik dan teknologi. Melanjutkan studi di Teknik Informatika di perguruan tinggi, saya memperdalam pengetahuan saya dalam bidang komputer dan teknologi informasi. Selain itu, saya juga mengikuti pelatihan di bidang Teknik Elektro Otomasi untuk mengasah keterampilan teknis dan memahami lebih dalam tentang sistem otomatisasi yang ada di industri.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image/smk.jpeg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-center py-2">SMK Negeri 4 Jakarta</h5>
+                                <p>SMK (Teknik Mekatronika): Menempuh pendidikan di SMK Negeri 4 Jakarta dengan fokus pada teknik mekatronika, mempelajari dasar-dasar teknologi mekanik, elektronik, dan sistem kontrol yang saling berintegrasi.</p>
+                                <a href="blog-page.html" class="btn btn-light d-flex justify-content-center">Click to read this...</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image/kuliah.jpeg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-center py-2">Universitas Esa Unggul</h5>
+                                <p>Universitas Esa Unggul (Teknik Informatika): Melanjutkan pendidikan di jurusan Teknik Informatika, mempelajari berbagai aspek teknologi informasi, pengembangan perangkat lunak, dan pemrograman komputer.</p>
+                                <a href="blog-page2.html" class="btn btn-light d-flex justify-content-center">Click to read this...</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image/pelatihan.jpeg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title text-center py-2">PPKD Jakarta Timur</h5>
+                                <p>Pelatihan (Teknik Elektro Otomasi): Mengikuti pelatihan di bidang Teknik Elektro Otomasi, memperdalam keterampilan dalam sistem otomatisasi industri, kontrol elektronik, dan perawatan peralatan elektro.</p>
+                                <a href="blog-page3.html" class="btn btn-light d-flex justify-content-center">Click to read this...</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="bg-dark py-5" id="contact">
+          <div class="container">
+              <div class="text-white text-center py-5">
+                  <h2 class="fw-bolder">Contact</h2>
+                  <p class="fs-5">Tertarik untuk berbicara lebih lanjut atau bekerja sama? Hubungi saya melalui informasi di bawah ini.</p>
+              </div>
+      
+              <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11 mx-auto">
+                  <div class="text-white fs-6">
+                      <p><strong>Phone:</strong> +62 81280715883</p>
+                      <p><strong>Email:</strong> muhammadfatihmf788159@gmail.com</p>
+                      <p><strong>Instagram:</strong> fatih_nuril14</p>
+                      <p><strong>Github:</strong> https://github.com/fatih-nuril</p>
+                  </div>
+              </div>
+          </div>
+      </section>      
+
+        <footer class="bg-light">
+            <div class="container">
+                <p class="copyright-text text-center fs-8 py-4 mb-0">Copyright © 2025 <a class="text-dark" href="https://github.com/fatih-nuril" target="_blank">@fatih-nuril</a></p>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script>
+        function switchStyle() {
+        if (document.getElementById('styleSwitch').checked) {
+            document.getElementById('gallery').classList.add("custom");
+            document.getElementById('exampleModal').classList.add("custom");
+        } else {
+            document.getElementById('gallery').classList.remove("custom");
+            document.getElementById('exampleModal').classList.remove("custom");
+        }
+        };
+        
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+   
+</body>
+</html>
